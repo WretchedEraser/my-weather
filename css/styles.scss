@@ -1,0 +1,58 @@
+@import 'semantic';
+@import 'colours'; //@import 'add-to-homescreen';
+@import 'weather'; // My Styles
+i {
+    color: $font-color;
+    font-size: 12em;
+    padding-right: 0.25em;
+}
+.temp {
+    padding-left: 0.25em;
+    color: $font-color;
+    font-size: 6em;
+}
+.ui.secondary.pointing.menu {
+    border-bottom: transparent;
+}
+
+.menu-bar {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.ui.secondary.pointing.menu .item {
+    font-size: 1.5em;
+    color: $font-color;
+}
+.ui.secondary.pointing.menu .item {
+    font-size: 1.5em;
+    color: $font-color;
+
+}
+.ui.secondary.pointing.menu a.item:hover,
+.ui.secondary.pointing.menu .active.item:hover {
+color: $color-3;
+border-color: $color-3;
+}
+.ui.secondary.pointing.menu .active.item{
+  color: $color_2;
+  border-color: $color-2;
+}
+a .item {
+    font-size: 4em;
+}
+p {
+    color: $font-color;
+    display: inline-block;
+}
+.city {
+    font-size: 3em;
+}
+body {
+    background: $weather-icon-color;
+}
+.ui.segment {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
